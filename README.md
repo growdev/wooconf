@@ -52,7 +52,50 @@ Show us the email sent to you
 
 
 
+## Exercise 3 Example
 
+```
+{
+  "order": {
+    "customer_id": 2,
+    "payment_details": {
+      "method_id": "bacs",
+      "method_title": "Direct Bank Transfer",
+      "paid": true
+    },
+    "billing_address": {
+      "first_name": "John",
+      "last_name": "Doe",
+      "company": "",
+      "address_1": "969 Market",
+      "address_2": "",
+      "city": "San Francisco",
+      "state": "CA",
+      "postcode": "94103",
+      "country": "US",
+      "email": "daniel@growdevelopment.com",
+      "phone": "(555) 555-5555"
+    },
+    "shipping_address": {
+      "first_name": "John",
+      "last_name": "Doe",
+      "company": "",
+      "address_1": "969 Market",
+      "address_2": "",
+      "city": "San Francisco",
+      "state": "CA",
+      "postcode": "94103",
+      "country": "US"
+    },
+    "line_items": [
+      {
+        "product_id": "93",
+        "quantity": 1
+      }
+    ]
+  }
+}
+```
 
 
 
